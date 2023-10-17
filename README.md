@@ -1,5 +1,6 @@
 # Car-Detection-by-YOLO
 In this project, I implemented the YOLOv2 algorithm for car detection with a threshold of 0.72 using the Darknet19 model in Keras.
+
 ![Car_detect](https://github.com/HayLahav/Car-Detection-by-YOLO/assets/111200362/5e3fdf42-0045-4f45-96ca-6318b862cb92)
 
 YOLO is an object detection algorithm that can detect multiple objects in an image and provide bounding box coordinates and class probabilities for each detected object.
@@ -28,4 +29,4 @@ Here's a brief breakdown of the main components and purposes of the code:
 
 ## 6) Model Prediction Loop:
 
-Iterates over images in the "images" directory, predicts bounding boxes using the YOLO model, and saves annotated images to the "out" directory.
+* Iterates over images in the "images" directory, predicts bounding boxes using the YOLO model, and saves annotated images to the "out" directory.
